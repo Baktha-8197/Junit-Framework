@@ -26,6 +26,8 @@ public static void browserlaunch() {
 	 driver=new ChromeDriver();
 	 driver.get("https://adactinhotelapp.com/");
 }
+
+
 @Before
 public void beforeEnterTime() {
 	Date date=new Date();
@@ -54,6 +56,12 @@ public void loginPage() throws IOException {
 	 String pageSource = driver.getPageSource();
 	 System.out.println(pageSource);
 	 //pageSource.contains(")
+	 
+	 System.out.println("Naan pollathavan ,poi sollathavan en nenjathil vanjangal  illkathavan"
+	 		+ "kai thatti vai moodi pasangu pesathavan jumbu chicku jumbo");
+	 System.out.println("unkooda naan serndhu irundhida enakku jenamam onnu podhuma nooru jenmam venum"
+	 		+ "nooru jenmam venum atha kekkuran antha samiya ,podhuma,nooru jenmam namakku podhuma vera varam edhum keppama ssaga varam keppom antha samiya andha samiya "
+	 		+ "");
 	 
 }
 }
